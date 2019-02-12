@@ -235,15 +235,28 @@ pre {
 /*====================================================
     header
 ====================================================*/
+.main-left {
+  height: 200px;
+  width: 12%;
+  float: left;
+  background-color: white;
+}
+.main-right {
+  height: 200px;
+  width: 12%;
+  float: right;
+  background-color: white;
+}
 .main-header {
   position: relative;
   text-align: center;
   line-height: 0;
-  height: 500px;
-  width: 100%;
-  background: #fff url(http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner.jpg);
-  background-repeat: repeat;
+  height: 200px;
+  width: 60%;
+  background-repeat: repeat-y;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-header .banneriframe {
   width: 100%;
