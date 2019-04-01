@@ -252,7 +252,7 @@ pre {
   text-align: center;
   line-height: 0;
   height: 200px;
-  width: 60%;
+  /* width: 60%; */
   background-repeat: repeat-y;
   overflow: hidden;
   margin-left: auto;
